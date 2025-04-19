@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Prata";
+  src: url("/fonts/Prata-Regular.ttf");
+}
+@font-face {
+  font-family: "Arial";
+  src: url("/fonts/ofont.ru_Arial.ttf");
+}
+
+.main_block-one {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1920px;
+  max-height: 1009px;
+  background: #222222;
+  margin: 0 auto;
+}
+.block_one-img {
+  text-align: left;
+  width: 763px;
+  height: 1009px;
+  z-index: 1;
+}
+.one_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 49px;
+  margin-left: 186px;
+  width: 783px;
+  height: 58px;
+  background-color: #7d12af;
+}
+.header_logo {
+  font-family: "Prata";
+  font-size: 36px;
+  /* line-height: 150%; */
+  display: flex;
+
+  max-width: 256px;
+  max-height: 58px;
+}
+.header_logo-text {
+  width: 154px;
+  height: 29px;
+}
+.block_one-nav {
+  font-family: "Arial";
+  font-size: 16px;
+  width: 427px;
+  height: 11px;
+  display: flex;
+  justify-content: space-between;
+}
+.block_one-lorem {
+  margin-top: 201px;
+  margin-left: 185px;
+  position: absolute;
+  width: 1305px;
+  height: 777px;
+  background-color: darkgray;
+}
