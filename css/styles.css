@@ -14,9 +14,9 @@
   max-height: 1009px;
   background: #222222;
   margin: 0 auto;
+  justify-content: space-between;
 }
 .block_one-img {
-  text-align: left;
   width: 763px;
   height: 1009px;
   z-index: 1;
@@ -64,4 +64,9 @@
   width: 1305px;
   height: 777px;
   background-color: darkgray;
+}
+.lorem_block-fraime {
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }
