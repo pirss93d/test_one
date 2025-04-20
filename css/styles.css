@@ -6,106 +6,48 @@
   font-family: "Arial";
   src: url("/fonts/ofont.ru_Arial.ttf");
 }
-
-.main_block-one {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1920px;
-  max-height: 1009px;
-  background: #222222;
-  margin: 0 auto;
-  justify-content: space-between;
-  color: white;
-}
-.block_one-img {
-  width: 763px;
-  height: 1009px;
-  z-index: 1;
-}
-.one_img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+/*header styles start*/
+.header {
+  background-color: gainsboro;
 }
 .wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 49px;
-  margin-left: 186px;
+  margin: 0 auto;
   width: 783px;
-  height: 58px;
-  background-color: #7d12af;
+  background-color: red;
 }
-.header_logo {
+.header__logo {
   font-family: "Prata";
   font-size: 36px;
-  /* line-height: 150%; */
-  display: flex;
-
-  max-width: 256px;
-  max-height: 58px;
 }
-.header_logo-text {
-  width: 154px;
-  height: 29px;
+.header__logo-link {
+  color: #ffffff;
+  text-decoration: none;
 }
-.block_one-nav {
-  font-family: "Arial";
-  font-size: 16px;
-  width: 427px;
-  height: 11px;
-  display: flex;
-  justify-content: space-between;
+.header__link {
+  text-decoration: none;
 }
-.block_one-lorem {
-  margin-top: 201px;
-  margin-left: 185px;
-  position: absolute;
-  width: 1305px;
-  height: 777px;
-  background-color: darkgray;
-}
-.lorem_block-fraime {
-  width: 100px;
-  height: 100px;
-  background-color: rgb(66, 8, 71);
-}
-.lorem_text-one {
-  font-family: "Prata";
-  font-size: 80px;
-  width: 1305px;
-  height: 160px;
-  background-color: rosybrown;
-}
-.lorem_block-two {
+.header__wrapper {
   display: flex;
   flex-wrap: wrap;
-  align-items: end;
-  width: 537px;
-  height: 417px;
-  background-color: #2e4074;
+  justify-content: space-between;
 }
-.block_two-tempor {
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header__item {
+  margin-right: 29px;
+}
+.header__item:last-child {
+  margin-right: 0;
+}
+.header__link {
   font-family: "Arial";
-  font-size: 50px;
+  font-size: 16px;
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
 }
 
-.block_order {
-  font-family: "Arial";
-  font-size: 24px;
-  width: 462px;
-  height: 317px;
-  background-color: chocolate;
-}
-.block_order-price {
-  display: flex;
-}
-.block_order-price .price_icon {
-  width: 39px;
-  height: 37px;
-}
-.price_info {
-  font-family: "Prata";
-  font-size: 40px;
-}
+/*header styles end*/
