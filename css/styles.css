@@ -15,6 +15,7 @@
   background: #222222;
   margin: 0 auto;
   justify-content: space-between;
+  color: white;
 }
 .block_one-img {
   width: 763px;
@@ -68,5 +69,43 @@
 .lorem_block-fraime {
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: rgb(66, 8, 71);
+}
+.lorem_text-one {
+  font-family: "Prata";
+  font-size: 80px;
+  width: 1305px;
+  height: 160px;
+  background-color: rosybrown;
+}
+.lorem_block-two {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  width: 537px;
+  height: 417px;
+  background-color: #2e4074;
+}
+.block_two-tempor {
+  font-family: "Arial";
+  font-size: 50px;
+}
+
+.block_order {
+  font-family: "Arial";
+  font-size: 24px;
+  width: 462px;
+  height: 317px;
+  background-color: chocolate;
+}
+.block_order-price {
+  display: flex;
+}
+.block_order-price .price_icon {
+  width: 39px;
+  height: 37px;
+}
+.price_info {
+  font-family: "Prata";
+  font-size: 40px;
 }
